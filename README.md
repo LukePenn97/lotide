@@ -26,6 +26,12 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `head(array)`: Takes an array and return the first element.
-* `middle(array)`: Takes an array and return the middle element(s).
-* `tail(array)`: Takes an array and return all elements except the head.
+* `head(array)`: Takes an array and returns the first element.
+* `middle(array)`: Takes an array and returns the middle element(s).
+* `tail(array)`: Takes an array and returns all elements except the head.
+* `letterPositions(string)`: Takes a string and returns an object with each letter as a key paired with the number of times it occured in the string.
+* `flatten(array)`: Takes any nested array and returns a flattened array.
+* `findKeyByValue(object , value)`: Takes an object and a value and returns a key with the matching value.
+* `eqObjects(object1, object2)`: Takes 2 objects and compares them.
+* `eqArrays(array1, array2)`: Takes 2 arrays and compares them.
+* `countOnly(array, object)`: Takes an array and an object, and if the keys match any values in the array, and also have true values in the object, it returns an object with those keys paired with the number of times they appeared in the array

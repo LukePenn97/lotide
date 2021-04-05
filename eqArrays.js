@@ -1,3 +1,4 @@
+const assert = require('chai').assert;
 
 const eqArrays = function(array1, array2) {
   //console.log(array1,array2);
